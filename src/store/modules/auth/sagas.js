@@ -38,7 +38,6 @@ export function* signUp({ payload }) {
             name,
             password,
             email,
-            provider: true,
         });
         // history.push('/');
     } catch (err) {
