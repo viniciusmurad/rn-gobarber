@@ -50,7 +50,7 @@ export default function Dashboard() {
 }
 
 Dashboard.navigationOptions = {
-    tabBarLabel: 'Schedules',
+    tabBarLabel: 'Dashboard',
     tabBarIcon: ({ tintColor }) => (
         <Icon name="event" size={20} color={tintColor} />
     ),
