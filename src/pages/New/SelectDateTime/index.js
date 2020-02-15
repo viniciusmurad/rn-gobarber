@@ -62,7 +62,7 @@ export default function SelectDateTime({ navigation }) {
 SelectDateTime.navigationOptions = ({ navigation }) => ({
     title: 'Select a time',
     headerLeft: () => (
-        <TouchableOpacity onPress={() => navigation.navigate('SelectProvider')}>
+        <TouchableOpacity onPress={() => navigation.goBack()}>
             <Icon name="chevron-left" size={20} color="#fff" />
         </TouchableOpacity>
     ),
